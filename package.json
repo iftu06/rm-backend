@@ -1,20 +1,25 @@
 {
-  "name": "rm-backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon index.js",
-    "start-dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "productVuzz",
+  "version": "0.0.1",
+  "description": "Awesome project developed with TypeORM.",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^16.11.43",
+    "ts-node": "10.7.0",
+    "typescript": "4.5.2"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "@types/express": "^4.17.13",
     "cors": "^2.8.5",
     "express": "^4.18.1",
-    "mysql": "^2.18.1",
-    "nodemon": "^2.0.18"
+    "joi": "^17.6.0",
+    "mysql": "^2.14.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "0.3.7"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "typeorm": "typeorm-ts-node-commonjs",
+    "golive" : "lt --port 8050"
   }
 }
