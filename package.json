@@ -20,6 +20,6 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "typeorm": "typeorm-ts-node-commonjs",
-    "golive" : "lt --port 8050"
+    "golive": "lt --port 8050"
   }
 }

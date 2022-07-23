@@ -14,7 +14,7 @@ AppDataSource.initialize().then(async () => {
     // console.log("Loading users from the database...")
     // const users = await AppDataSource.manager.find(User)
     // console.log("Loaded users: ", users)
-    app.listen(8050, () => console.log("Listening on port 8050"))
+    app.listen(8095, () => console.log("Listening on port 8095"))
 
     console.log("Here you can setup and run express / fastify / any other framework.")
 
